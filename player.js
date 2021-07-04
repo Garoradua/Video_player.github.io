@@ -157,6 +157,8 @@ $(document).ready(function() {
             $("#video-description").html(videoPlaySectionData[i].description);
         //     $(".playlist-card").removeClass("active-card");
         //     $("#card"+videoPlaySectionData[i].id).addClass("active-card");
+             document.body.scrollTop=0;
+             document.documentElement.scrollTop=0;
          }
     }
   }
